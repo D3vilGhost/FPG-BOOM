@@ -1,0 +1,135 @@
+html{
+    margin:0px;
+    padding:0px;
+    border:0px;
+    height:100%;
+}
+body{
+    margin:0px;
+    border:0px;
+    padding:0px;
+    height:100%;
+    background-color: rgb(255, 255, 255);
+    display: grid;
+    grid-template-rows: 93vh 7vh;
+}
+/* Playing area layout */
+#game{
+    grid-row: 1;
+    margin:0px;
+    border:0px;
+    padding:0px;
+    display: grid;
+    grid-template-rows:7% 93%;
+}
+#stats{
+    grid-row: 1;;
+    color:black;
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    background:linear-gradient(#ff6700, #ffb75e, #f52424);
+    font-size: 90%;
+}
+#stats>h1{
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr;
+}
+#play-area{
+    grid-row:2;
+    background:linear-gradient(#14a3f0,#71adf0,#2c95e1,#70abee);
+    position: static;
+    z-index: 0;
+    display:flex;
+}
+
+/* Plane attacks and enemies ,clouds*/
+#player-plane{
+    height:calc(95%/5);
+    display:inline-block;
+    position:relative;
+    width:auto;
+}
+.attack{
+    height:calc(95%/35);
+    display:inline-block;
+    position: relative;
+    z-index:0;
+    width:auto;
+}
+.enemy-plane{
+    height:calc(95%/5);
+    width:auto;
+}
+.cloud{
+    height:calc(95%/10);
+    z-index: -10;
+}
+
+/* Game over layout */
+#play-again{
+    color:rgb(0, 0, 0);
+    margin:0px;
+    border:0px;
+    padding:0px;
+    background-color: rgba(0, 0, 0, 0.416);
+    position: absolute;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    height:93vh;
+    width:100vw;
+    z-index: 1;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    row-gap: 5%;
+    justify-content: center;
+    align-items: center;
+}
+#play-again>div{
+    align-self: end;
+    font-size:300%;
+    font-weight: bold;
+}
+#play-again>a{
+    align-self: start;
+    color: #ffffff;
+    background-color:rgb(0, 0, 0);
+    border-radius: 10px;
+    border:3px solid rgb(255, 255, 255);
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    font-size: 150%;
+    height:25%;
+}
+/*Footer styling*/
+#footer{
+    grid-row:2;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:center;
+    margin:0px;
+    padding-top: 0%;
+    padding-bottom: 0%;
+    padding-left:10%;
+    padding-right:10%;
+    background-color: black;
+    color:white;
+    font-size:90%;
+}
+#footer>a{
+    height:75%;
+    margin:0px;
+    border:0px;
+    padding:px;
+    margin-left:5px;
+    margin-right:5px;
+}
+#gmail,#linkedin,#github{
+    margin:0px;
+    border:0px;
+    padding:0px;
+    height:calc(90%);
+}

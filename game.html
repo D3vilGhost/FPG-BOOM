@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fighter Plane Game</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="icon" href="./characters/enemy_plane.png">
+</head>
+
+<body>
+    <div id="game">
+        <div id="stats">
+            <h1>Lives: <div id="lives">3</div></h1>
+            <h1>Score:<div id="score">0</div></h1>
+        </div>
+        <div id="play-area">
+            <img src="./characters/attacks.png" class="attack">
+            <img src="./characters/plane.png" id="player-plane">
+            <img src="./characters/enemy_plane.png" class="enemy-plane">
+            <div id="attack_div"></div>
+            <img src="./characters/cloud.png" alt="cloud" class="cloud">
+        </div>
+        <div id="play-again">
+            <div>GAME OVER!</div>
+            <a href="index.html">Play Again</a>
+        </div>
+    </div>
+    </div>
+    <div id="footer">
+        This site is created by Kartikey Agarwal ||
+        <a href="mailto:kartik3y.ag@gmail.com" target="blank">
+            <img src="./link logo/gmail_icon.png" alt="Gmail" id="gmail" height="334px">
+        </a>
+        <a href="https://github.com/d3vilGhost" target="blank">
+            <img src="./link logo/github_logo.png" alt="GitHub" id="github" height="334px">
+        </a>
+        <a href="https://www.linkedin.com/in/kartik3y-ag/" target="blank">
+            <img src="./link logo/linkedin-logo.png" alt="Linked-In" id="linkedin" height="334px">
+        </a>
+    </div>
+</body>
+<script src="script.js"></script>
+
+</html>

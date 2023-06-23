@@ -11,7 +11,7 @@ FPG BOOM! stands for Fighter Plane Game BOOM! inspired from 90's and 2000's clas
 -  Press Down key 🔽 to move upwards.
 -  Press Left key ⏪to move upwards.
 -  Press Right key ⏩ to move upwards.
--  Press Space Bar to move attack.
+-  Press Space Bar to attack.
 - NOTE: ONLY ONE KEY WILL WORK AT A TIME.
 
 ## ▶️How To Play/Rules:
